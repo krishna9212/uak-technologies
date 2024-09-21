@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html,
+#root {
+  height: 100%;
+  background-color: black;
+  width: 100%;
+  transition: all;
+  transition-duration: 900ms;
+}
+
+html::-webkit-scrollbar {
+  width: 8px;
+  height: 5px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #434343;
+  border-radius: 16px;
+  box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25),
+    inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+}
+
+html::-webkit-scrollbar-track {
+  background: linear-gradient(90deg, #434343, #434343 1px, #111 0, #111);
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.container {
+  /* Set the background image */
+  background-image: url("./../images/bg-1.jpg");
+
+  /* Ensure the background image covers the entire container */
+  background-size: cover;
+
+  /* Center the background image */
+  background-position: center;
+
+  /* Prevent the background image from repeating */
+  background-repeat: no-repeat;
+
+  /* Fix the background image */
+  background-attachment: fixed;
+}
+
+.Calling {
+  /* Set the background image */
+  background-image: url("./../images/call-us-bg.jpg");
+
+  /* Ensure the background image covers the entire container */
+  background-size: cover;
+
+  /* Center the background image */
+  background-position: center;
+
+  /* Prevent the background image from repeating */
+  background-repeat: no-repeat;
+
+  /* Fix the background image */
+  background-attachment: fixed;
+} /* Initial State */
+.navbar {
+  position: relative;
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 10px 0;
+
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+  border-radius: 0; /* No rounded corners initially */
+  z-index: 50; /* Ensure it's on top of other content */
+}
+.navbar.scrolled {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.8
+  ); /* Example: Change background on scroll */
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Scrolled State */
+.navbar.scrolled {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-radius: 0 0 20px 20px; /* Rounded corners on the bottom */
+  background: black;
+}
+.black-and-white {
+  filter: grayscale(100%);
+}
+
+/* Prevent scrolling while loading page is active */
+.no-scroll {
+  overflow: hidden;
+}
+
+/* loading page */
+
+.loading-page {
+  position: fixed;
+
+  opacity: 1;
+  z-index: 9999; /* Ensures it’s on top of other content */
+
+  /* color: #191654; */
+}
+
+.name-container {
+  overflow: hidden;
+}
+
+#svg {
+  height: 150px;
+  width: 150px;
+  stroke: white;
+  fill-opacity: 0;
+  stroke-width: 3px;
+  stroke-dasharray: 1000; /* Adjusted to match path length */
+  stroke-dashoffset: 1000;
+  animation: draw 25s ease forwards; /* Increased duration to slow down animation */
+}
+
+@keyframes draw {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
