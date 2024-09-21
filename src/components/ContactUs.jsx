@@ -50,17 +50,12 @@ function ContactUs() {
         {/* Social Media Links */}
         <div className="socials overflow-hidden flex text-2xl items-center gap-6 w-full px-7 py-4">
           <a
-            href="https://wa.me/919555530011"
+            href="https://wa.me/919910685956"
             className="overflow-hidden text-green-600 font-bold"
           >
             <i className="fa-brands fa-whatsapp"></i>
           </a>
-          <a href="#" className="overflow-hidden text-blue-900 font-bold">
-            <i className="fa-brands fa-linkedin"></i>
-          </a>
-          <a href="#" className="overflow-hidden text-pink-600 font-bold">
-            <i className="fa-brands fa-instagram"></i>
-          </a>
+          
         </div>
       </div>
     </div>
