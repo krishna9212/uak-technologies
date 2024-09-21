@@ -11,7 +11,15 @@ html,
   transition: all;
   transition-duration: 900ms;
 }
+*::selection {
+  background-color: rgb(95, 199, 95); /* Green background */
+  color: white; /* Change this to your preferred text color */
+}
 
+::-moz-selection {
+  background-color: rgb(95, 199, 95); /* For Firefox */
+  color: white; /* Change this to your preferred text color */
+}
 html::-webkit-scrollbar {
   width: 8px;
   height: 5px;
