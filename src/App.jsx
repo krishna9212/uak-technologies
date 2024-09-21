@@ -15,7 +15,7 @@ import LoadingPage from "./components/LoadingPage";
 function App() {
   return (
     <>
-      {/* <LoadingPage></LoadingPage> */}
+      <LoadingPage></LoadingPage> 
       <Navigation />
       <LandingPage />
       <WhyUs></WhyUs>
