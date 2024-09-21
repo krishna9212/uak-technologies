@@ -19,7 +19,7 @@ const Calling = () => {
 
           {/* Dialer Button */}
           <button
-            onClick={() => (window.location.href = "tel:+919555530011")}
+            onClick={() => (window.location.href = "tel:+919910685956")}
             className="call-button mt-5 p-1 md:p-3 border-2 gap-4  border-white w-[92%] md:w-[30%] bg-purple-700 hover:bg-purple-900 transition-all duration-700 flex justify-center items-center rounded-full"
           >
             <span className="phone-icon text-2xl text-white pl-2 md:pl-0">
