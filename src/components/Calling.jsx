@@ -33,7 +33,7 @@ const Calling = () => {
           {/* WhatsApp Button */}
           <button
             onClick={() =>
-              (window.location.href = "https://wa.me/919555530011")
+              (window.location.href = "https://wa.me/919910685956")
             }
             className="whatsapp-button mt-3 p-1 md:p-3 border-2 gap-4 border-white w-[92%] md:w-[30%] bg-green-500 hover:bg-green-700 transition-all duration-700 flex justify-center items-center rounded-full"
           >
