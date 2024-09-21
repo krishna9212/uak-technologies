@@ -14,7 +14,7 @@ const Calling = () => {
           <p className="h-[40%] md:h-[25%] w-[92%]   flex justify-center text-center text-xl font-light">
             We are the trusted name for delivering and installing top-notch
             security solutions. We understand that few things are inevitable,
-            security for instance. With UAK, your security is our priority.
+            security for instance. With UKA, your security is our priority.
           </p>
 
           {/* Dialer Button */}
