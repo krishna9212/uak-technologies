@@ -22,7 +22,7 @@ function WhyUs() {
 
   const handleProductClick = (productName) => {
     const message = `I want to inquire about ${productName}.`;
-    const phoneNumber = "919555530011"; // Replace with your WhatsApp number
+    const phoneNumber = "919910685956"; // Replace with your WhatsApp number
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;
