@@ -28,7 +28,7 @@ function Products() {
   // Function to handle product click
   const handleProductClick = (productName) => {
     const message = `I wanted to purchase the ${productName}.`;
-    const phoneNumber = "919555530011"; // Replace with your WhatsApp number
+    const phoneNumber = "919910685956"; // Replace with your WhatsApp number
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;
@@ -39,7 +39,7 @@ function Products() {
   const handleInquiry = () => {
     const message =
       "I would like to inquire about your security-related products.";
-    const phoneNumber = "919555530011"; // Replace with your WhatsApp number
+    const phoneNumber = "919910685956"; // Replace with your WhatsApp number
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;
