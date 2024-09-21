@@ -5,7 +5,7 @@ const Calling = () => {
     <>
       <div
         id="call"
-        className="Calling py-4 overflow-hidden w-screen text-white h-[75%] md:h-[35%]  flex  flex-col justify-center items-center"
+        className="Calling py-4 overflow-hidden w-screen text-white h-[75%] md:h-[45%]  flex  flex-col justify-center items-center"
       >
         <div className="box h-[90%] w-[95%] flex  flex-col justify-center items-center">
           <h1 className="h-[30%] w-[98%]  flex justify-center items-center  text-center tracking-wide  text-2xl font-bold ">
