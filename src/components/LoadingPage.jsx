@@ -36,7 +36,7 @@ function LoadingPage() {
 
       <div className="name-container w-full text-2xl -tracking-tighter font-extralight  flex justify-center">
         <div className="logo-name text-green-600 " style={{ opacity: 1 }}>
-          UAK TECHNOLOGY
+          UKA TECHNOLOGY
         </div>
       </div>
     </div>
