@@ -20,7 +20,7 @@ const Testimonials = () => {
     { icon: "fa-users", stat: "1000+", label: "Happy Clients" },
     { icon: "fa-box", stat: "200+", label: "Have Products" },
     { icon: "fa-list-check", stat: "200+", label: "Project Done" },
-    { icon: "fa-face-grin-stars", stat: "UAK", label: "are Available on" },
+    { icon: "fa-face-grin-stars", stat: "UKA", label: "are Available on" },
   ];
 
   return (
