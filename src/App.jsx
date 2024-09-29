@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>UAK Technologies - Your Trusted Tech Partner</title>
+        <title>UKA Technologies - Your Trusted Tech Partner</title>
         <meta
           name="description"
           content="UAK Technologies offers top-notch web development services using React, HTML, CSS, JavaScript, and Tailwind. Contact us for your next project!"
