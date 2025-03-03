@@ -35,7 +35,7 @@ function ContactUs() {
           <span className="text-base">
             <i className="fa-solid fa-envelope"></i>
           </span>
-          <span className="text-sm">ukatechnology1@gmail.com</span>
+          <span className="text-sm">sales@ukatechnology.com</span>
         </h1>
 
         <h1 className="flex items-center gap-5 px-6 py-4">
